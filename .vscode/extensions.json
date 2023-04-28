@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "formulahendry.code-runner",
+        "ms-vscode.cpptools",
+        "franneck94.c-cpp-runner"
+    ]
+}

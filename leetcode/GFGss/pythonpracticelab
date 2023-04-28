@@ -1,0 +1,16 @@
+def checkKey(dic, key):
+    if key in dic.keys():
+        print("Present, ", end =" ")
+        print("value =", dic[key])
+    else:
+        print("Not present")
+students=dict() 
+print("Enter number of items:")
+n=int(input())
+for i in range(n):
+    sname=input("Enter name:")
+    print("Enter marks in physics\n")
+    marks=int(input())
+    students[sname]=marks
+item=input("Enter key you want to find in the list:")
+checkKey(students,item)
